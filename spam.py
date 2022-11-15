@@ -66,7 +66,7 @@ async def main():
         if reply == 'Y' or reply == 'y':
             confirm = True
 
-    message = int(message.message_id("mesaj id gir : "))
+    msg = int(message.message_id("mesaj id gir : "))
     Several = int(input("kaç tane Göndermek istersin?\n"))
 
     print("Hedef Yanlış ise Ctrl-Z kullanabilirsin.")
@@ -79,7 +79,7 @@ async def main():
     ).start()
     try:
         for i in range(int(Several)):
-            await client.send_message(target.id, message)
+            await client.send_message(target.id, msg)
             bar.update(i + 1)
         bar.finish()
         print("[+] Spam tamamlandı..")

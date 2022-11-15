@@ -1,2 +1,2 @@
-pip3 install progressbar2
+pip install progressbar2
 pip install telethon

@@ -66,7 +66,6 @@ async def main():
         if reply == 'Y' or reply == 'y':
             confirm = True
 
-   
     message = input("Mesaj id gir:" + str(message.message_id))
     Several = int(input("kaç tane Göndermek istersin?\n"))
 

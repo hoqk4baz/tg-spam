@@ -67,7 +67,7 @@ async def main():
         if reply == 'Y' or reply == 'y':
             confirm = True
 
-    msg = int(message.message_id("mesaj id gir : "))
+    msg = int(message_id("mesaj id gir : "))
     Several = int(input("kaç tane Göndermek istersin?\n"))
 
     print("Hedef Yanlış ise Ctrl-Z kullanabilirsin.")

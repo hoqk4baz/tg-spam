@@ -1,6 +1,5 @@
 from telethon import TelegramClient
 from telethon.errors import rpcerrorlist, FloodWaitError, ChatWriteForbiddenError
-import pyrogram
 import time
 import os
 try:

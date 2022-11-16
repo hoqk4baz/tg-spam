@@ -66,7 +66,7 @@ async def main():
         if reply == 'Y' or reply == 'y':
             confirm = True
 
-    msg = input("Spam mesajı girin : "))
+    msg = input("Spam mesajı girin : ")
     Several = int(input("kaç tane Göndermek istersin?\n"))
 
     print("Hedef Yanlış ise Ctrl-Z kullanabilirsin.")

@@ -52,13 +52,13 @@ async def main():
 
         # Get target chat
         while target_index < 0 or target_index > max:
-            print('Please insert target between 0 and', max)
+            print('Hedef seç 0 ile', max)
             target_index = int(input())
             if target_index < 0 | target_index > max:
-                print('target out of range')
+                print('Hedef yanlış')
 
         target = dialogs[target_index]
-        print('target is', target.name, 'with ID', target.id)
+        print('Hedef', target.name, 'with ID', target.id)
 
         # Wait for confirm
         print('Onaylıyormusun? Y/N')
@@ -86,9 +86,9 @@ async def main():
     except rpcerrorlist.ChatAdminRequiredError:
         print("[!] Sohbete mesaj gönderimin kısıtlanmış !")
     except ChatWriteForbiddenError:
-        print("[!] Sohbete Mesaj Gönderimin Kısıtlı!")
+        print("[!] Bu Sohbete Mesaj Gönderilemez")
     except FloodWaitError:
-        print("[!] Tamam Yorma kendini Sonra denersin :)")
+        print("[!] Flood'a Takıldın Tamam Yorma kendini Sonra denersin :)")
 
 
 with client:

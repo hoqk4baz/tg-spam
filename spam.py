@@ -31,13 +31,13 @@ async def main():
 
     global target
     print("  _____             _      ______                ")
-print(" |  __ \           | |    |  ____|               ")
-print(" | |  | | __ _ _ __| | __ | |__   _ __  ______ _ ")
-print(" | |  | |/ _` | '__| |/ / |  __| | '_ \|_  / _` |")
-print(" | |__| | (_| | |  |   <  | |____| | | |/ / (_| |")
-print(" |_____/ \__,_|_|  |_|\_\ |______|_| |_/___\__,_|")
-print("")
-    print("\n\n Bir Hedef Belirle..")
+    print(" |  __ \           | |    |  ____|               ")
+    print(" | |  | | __ _ _ __| | __ | |__   _ __  ______ _ ")
+    print(" | |  | |/ _` | '__| |/ / |  __| | '_ \|_  / _` |")
+    print(" | |__| | (_| | |  |   <  | |____| | | |/ / (_| |")
+    print(" |_____/ \__,_|_|  |_|\_\ |______|_| |_/___\__,_|")
+    print("")
+    print('\n\n Bir Hedef Belirle..')
     i = 0
     dialogs = await client.get_dialogs()
     for dialog in dialogs:

@@ -37,7 +37,7 @@ print(" | |  | |/ _` | '__| |/ / |  __| | '_ \|_  / _` |")
 print(" | |__| | (_| | |  |   <  | |____| | | |/ / (_| |")
 print(" |_____/ \__,_|_|  |_|\_\ |______|_| |_/___\__,_|")
 print("")
-    print('\n\nBir Hedef Belirle..')
+    print("\n\n Bir Hedef Belirle..")
     i = 0
     dialogs = await client.get_dialogs()
     for dialog in dialogs:

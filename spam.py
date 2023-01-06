@@ -30,14 +30,14 @@ async def main():
         os.system("clear")
 
     global target
-    print('''
-        .___             __                                            
-  __| _/____ _______|  | __           ____   ____ _____________    
- / __ |\__  \\_  __ \  |/ /  ______ _/ __ \ /    \\___   /\__  \   
-/ /_/ | / __ \|  | \/    <  /_____/ \  ___/|   |  \/    /  / __ \_ 
-\____ |(____  /__|  |__|_ \          \___  >___|  /_____ \(____  / 
-     \/     \/           \/              \/     \/      \/     \/  ''')
-    print('\n\nReis burdan bir hedef belirle..')
+    print("  _____             _      ______                ")
+print(" |  __ \           | |    |  ____|               ")
+print(" | |  | | __ _ _ __| | __ | |__   _ __  ______ _ ")
+print(" | |  | |/ _` | '__| |/ / |  __| | '_ \|_  / _` |")
+print(" | |__| | (_| | |  |   <  | |____| | | |/ / (_| |")
+print(" |_____/ \__,_|_|  |_|\_\ |______|_| |_/___\__,_|")
+print("")
+    print('\n\nBir Hedef Belirle..')
     i = 0
     dialogs = await client.get_dialogs()
     for dialog in dialogs:
@@ -72,7 +72,7 @@ async def main():
     print("Hedef Yanlış ise Ctrl-Z kullanabilirsin.")
     print('3 saniye icinde basliyor...')
     time.sleep(3)
-    print("[+] Spam atmaya başladık yaslan geriye :)")
+    print("[+] Spam atmaya başlandı..")
     bar = progressbar.ProgressBar(
         widgets=[progressbar.SimpleProgress()],
         max_value=Several,
